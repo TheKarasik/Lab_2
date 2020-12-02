@@ -67,7 +67,10 @@ namespace Lab2
             xlWorkBook.Close();
             downloader.DownloadFile("https://bdu.fstec.ru/files/documents/thrlist.xlsx", Environment.CurrentDirectory + @"\thrlist.xlsx");
             new MainWindow().Show();
-            MessageBox.Show("Обновление произведено");
+        }
+        public static void ExitExcel()
+        {
+            xlWorkBook.Close();
         }
         
     }

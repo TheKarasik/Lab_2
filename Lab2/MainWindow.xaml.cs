@@ -83,6 +83,7 @@ namespace Lab2
         {
             ExcelParser.DownloadExcel();
             Close();
+            MessageBox.Show("Обновление произведено");
         }
 
         private void Save_Click(object sender, RoutedEventArgs e)
