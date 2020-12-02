@@ -13,6 +13,7 @@ namespace Lab2
     /// </summary>
     public partial class App : Application
     {
+        //выход
         private void Application_Exit(object sender, ExitEventArgs e)
         {
             ExcelParser.ExitExcel();
