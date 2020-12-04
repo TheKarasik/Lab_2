@@ -90,9 +90,5 @@ namespace Lab2
         {
             new SaveWindow().Show();
         }
-        private void DownloadComplete(object sender, AsyncCompletedEventArgs e)
-        {
-            MessageBox.Show("Загрузка завершена");
-        }
     }
 }

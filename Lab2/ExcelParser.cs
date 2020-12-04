@@ -36,6 +36,7 @@ namespace Lab2
                 //get the total column count
                 cl = range.Columns.Count;
 
+                Threat.threats = new List<Threat>();
                 Threat threat;
                 // traverse all the row in the excel
                 for (rCnt = 3; rCnt <= rw; rCnt++)
